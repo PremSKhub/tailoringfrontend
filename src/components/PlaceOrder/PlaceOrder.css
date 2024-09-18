@@ -1,0 +1,315 @@
+/* .place-order-container {
+    height: 89.7vh;
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../assets/6.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.order-section,
+.bill-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order-section {
+    width: 48%; 
+}
+
+.bill-section {
+    width: 48%; 
+}
+
+.heading,
+.receipt-heading {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-pay {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    margin-top: 15px;
+}
+.space{
+    width: 90vw;
+}
+
+.cardheading{
+    position: absolute;
+    top: 13px;
+    left: 261px;
+}
+
+.form-label{
+    font-weight: 600;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .place-order-container {
+    height: 89.7vh;
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../assets/6.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.order-section,
+.bill-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48%;
+}
+
+.heading,
+.receipt-heading {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.add-item-btn {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.btn-pay {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    margin-top: 15px;
+}
+
+.space {
+    width: 90vw;
+}
+
+.cardheading {
+    position: absolute;
+    top: 13px;
+    left: 261px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.form-control[readonly] {
+    text-align: center;
+}
+
+.form-label {
+    font-weight: 600;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.place-order-container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../../assets/6.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-size: 1rem;
+    padding-top: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.place-order-container .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    /* margin: 0 0 58px 0; */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    background-image: linear-gradient(90deg, #027dbd, #f54b8e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.measurement-details-container .animated-heading{
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Page title and form layout */
+.page-title {
+    margin-top: 8px; /* Position the title below the navbar */
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-section,
+.bill-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 48%;
+}
+
+.form-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-item-btn {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.btn-pay {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    margin-top: 15px;
+}
+
+input.form-control[readonly] {
+    text-align: center;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.conatiner-margin{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+

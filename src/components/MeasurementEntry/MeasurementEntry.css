@@ -1,0 +1,113 @@
+.measurement-entry-container {
+    height: 89.7vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    padding: 0 20px;
+    background: url('../../assets/6.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.measurement-entry-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    background-image: linear-gradient(90deg, #027dbd, #f54b8e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    /* animation: glow 2s ease-in-out infinite alternate, slideDown 1.5s ease-in-out; */
+}
+
+/* @keyframes glow {
+    from {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #027dbd, 0 0 20px #f54b8e;
+    }
+    to {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 20px #027dbd, 0 0 40px #f54b8e;
+    }
+} */
+
+.measurement-entry-container .animated-heading {
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Input Animation */
+.animated-input {
+    animation: slideUp 1s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animated-input:hover {
+    transform: scale(1.05);
+}
+
+/* Button Hover Animation */
+.animated-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    width: 13%;
+    transition: 0.4s ease-in-out;
+    margin-top: 15px;
+}
+
+.animated-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    box-shadow: 0px 0px 20px rgba(0, 123, 255, 0.7), 0px 0px 30px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    color: white;
+}
+
+/* Smooth Form Entry Animation */
+.animated-form {
+    animation: formSlideIn 1.2s ease-in-out;
+}
+
+@keyframes formSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.size {
+    font-size: 20px;
+}
+
+.form-adjust {
+    margin-top: 77px;
+}

@@ -1,0 +1,600 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    background-color: #181818;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/sample2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(0px);
+}
+
+.wrapper {
+    width: 400px;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #f7c152;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.input-field {
+    position: relative;
+    border-bottom: 2px solid #f7c152;
+    margin: 20px 0;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #f7c152;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    font-weight: 300;
+}
+
+.input-field input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #f7c152;
+    font-weight: 400;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+    color: #fff;
+}
+
+button {
+    background: linear-gradient(90deg, #f7c152, #f3a712, #f7c152);
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    animation: sewing-machine 1.5s infinite;
+    background-size: 200% 100%;
+}
+
+button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.login {
+    text-align: center;
+    margin-top: 35px;
+    color: #f7c152;
+    font-weight: 300;
+}
+
+@keyframes sewing-machine {
+    0%, 100% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 0;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.signup-wrapper {
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #f7c152;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #f7c152;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    font-weight: 300;
+}
+
+.input-field input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #f7c152;
+    outline: none;
+    font-size: 16px;
+    color: #f7c152;
+    padding: 0 10px;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+    color: #fff;
+}
+
+button {
+    background: linear-gradient(90deg, #f7c152, #f3a712, #f7c152);
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    width: 100%;
+    margin-top: 30px;
+    animation: sewing-machine 1.5s infinite;
+    background-size: 200% 100%;
+}
+
+button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@keyframes sewing-machine {
+    0%, 100% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 0;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    background-color: #181818;
+}
+
+.signup-wrapper {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #f7c152;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 48%;
+    position: relative;
+    border-bottom: 2px solid #f7c152;
+    margin: 20px 0;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #f7c152;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    font-weight: 300;
+}
+
+.input-field input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #f7c152;
+    font-weight: 400;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+    color: #fff;
+}
+
+button {
+    background: linear-gradient(90deg, #f7c152, #f3a712, #f7c152);
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    animation: sewing-machine 1.5s infinite;
+    background-size: 200% 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.login-prompt {
+    margin-top: 20px;
+    color: #f7c152;
+    font-weight: 300;
+}
+
+.login-button {
+    background: none;
+    border: none;
+    color: #f7c152;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.login-button:hover {
+    color: #fff;
+}
+
+@keyframes sewing-machine {
+    0%, 100% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 0;
+    }
+} */
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #181818;
+}
+
+.signup-container {
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover !important;
+    overflow: hidden;
+   background: url(../../assets/sample2.jpg) no-repeat center center fixed;
+   
+}
+
+.signup-wrapper {
+    height: 95%;
+    width: 60%;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.signup-header2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #f7c152;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+}
+
+.input-field {
+    flex: 1;
+    margin-right: 20px;
+    position: relative;
+    border-bottom: 2px solid #f7c152;
+}
+
+.input-field:last-child {
+    margin-right: 0;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #f7c152;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    font-weight: 300;
+}
+
+.input-field input {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #f7c152;
+    font-weight: 400;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+    color: #fff;
+}
+
+.signup-button {
+    background: linear-gradient(90deg, #f7c152, #f3a712, #f7c152);
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    animation: sewing-machine 1.5s infinite;
+    background-size: 200% 100%;
+    margin-top: 20px;
+}
+
+.signup-button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.login-prompt {
+    text-align: center;
+    margin-top: 20px;
+    color: #f7c152;
+    font-weight: 300;
+}
+
+.login-link {
+    color: #f7c152;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+@keyframes sewing-machine {
+    0%, 100% {
+        background-position: 100% 0;
+    }
+    50% {
+        background-position: 0 0;
+    }
+}

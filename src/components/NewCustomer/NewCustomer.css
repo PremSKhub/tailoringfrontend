@@ -1,0 +1,251 @@
+/* .new-customer-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../../assets/2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.new-customer-container .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: transparent;
+    background-image: linear-gradient(90deg, #027dbd, #f54b8e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    animation: bounce 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.new-customer-container .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    width: 100%;
+    animation: fadeInUp 1s ease-out both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.new-customer-container .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.new-customer-container .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.new-customer-container .form-group label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.new-customer-container .form-group input[type="text"],
+.new-customer-container .form-group input[type="email"],
+.new-customer-container .form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.new-customer-container .form-group div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 8px;
+}
+
+.new-customer-container .form-submit {
+    text-align: center;
+}
+
+.new-customer-container button {
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 15px;
+    width: 10%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.new-customer-container button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.new-customer-container button:active {
+    transform: translateY(1px);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-customer-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: url('../../assets/2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.new-customer-container .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 46px;
+    text-align: center;
+    color: transparent;
+    background-image: linear-gradient(90deg, #027dbd, #f54b8e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    animation: bounce 1s infinite alternate;
+}
+
+.new-customer-container .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.new-customer-container .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.new-customer-container .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.new-customer-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+}
+
+.new-customer-container .form-group input:hover {
+    transform: scale(1.05);
+}
+
+.new-customer-container .form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.new-customer-container .submit-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.new-customer-container button {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 150px;
+    text-align: center;
+}
+
+.new-customer-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+#sbt-btn{
+    margin-left: 191px;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

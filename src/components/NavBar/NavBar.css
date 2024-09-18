@@ -1,0 +1,155 @@
+/* .navbar-brand .logo {
+    width: 40px; 
+    height: auto; 
+    display: inline-block;
+}
+
+
+.navbar-heading {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: gill sans sans-serif;
+}
+
+
+.container-fluid {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-link {
+    margin-left: 15px;
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #007bff; 
+}
+
+.ml-auto {
+    margin-left: auto !important;
+    display: flex;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar design enhancements */
+.custom-navbar {
+    background: linear-gradient(90deg, rgba(2, 123, 189, 1) 0%, rgba(245, 75, 142, 1) 100%);
+    padding: 10px 0;
+    height: 66px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease;
+}
+
+.custom-navbar:hover {
+    background: linear-gradient(90deg, rgba(245, 75, 142, 1) 0%, rgba(2, 123, 189, 1) 100%);
+}
+
+/* Logo with subtle scale animation */
+.logo {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.animated-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Centered heading with custom font and animation */
+.navbar-heading {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease;
+}
+
+/* Right-side navigation links with hover animation */
+.nav-link {
+    margin-left: 20px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #ffef00; /* Yellow hover effect */
+    transform: translateY(-3px);
+}
+
+/* Flexbox alignment for right side links */
+.ml-auto {
+    margin-left: auto !important;
+    display: flex;
+    align-items: center;
+}
+
+/* Keyframe animations */
+
+/* Fade-in animation for the navbar heading */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .navbar-heading {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}

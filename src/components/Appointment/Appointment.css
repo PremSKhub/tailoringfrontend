@@ -1,0 +1,67 @@
+.appointment-container {
+    height: 89.7vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../../assets/6.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.appointment-container .header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.appointment-container .header img {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 150px;
+}
+.appointment-container .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+.appointment-container .form-group {
+    margin-bottom: 15px;
+}
+.appointment-container label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.appointment-container input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.appointment-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.appointment-container button:hover {
+    background-color: #0056b3;
+}
+.appointment-container #display {
+    margin-top: 20px;
+    font-size: 16px;
+}

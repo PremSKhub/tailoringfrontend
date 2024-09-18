@@ -1,0 +1,160 @@
+.existing-customer-container {
+    height: calc(100vh - 70px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../../assets/6.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-size: 1rem;
+    padding-top: 10px; 
+}
+
+.existing-customer-container .input-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.existing-customer-container .card-title{
+    text-align: center;
+    font-weight: 900;
+}
+
+.search-bar {
+    width: 50%;
+    max-width: 400px;
+}
+
+.existing-customer-container .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-height: calc(100% - 120px); 
+    overflow: hidden;
+}
+
+.existing-customer-container .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px; 
+}
+
+.existing-customer-container .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.existing-customer-container .btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.existing-customer-container .btn {
+    flex: 1;
+    width: 200px;
+}
+
+/* .existing-customer-container .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.existing-customer-container .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    color: transparent;
+    background-image: linear-gradient(90deg, #027dbd, #f54b8e); /* Blue and pink gradient */
+    background-clip: text; /* Applies the gradient only to the text */
+    -webkit-background-clip: text; /* For Safari */
+    letter-spacing: 2px; /* Adds spacing between the letters */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    animation: glow 1.5s ease-in-out infinite alternate; /* Glow animation */
+}
+
+/* Glow animation */
+@keyframes glow {
+    from {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 10px #027dbd, 0 0 20px #f54b8e;
+    }
+    to {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 20px #027dbd, 0 0 40px #f54b8e;
+    }
+}
+
+
+.existing-customer-container .animated-heading {
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.existing-customer-container .card.stylish-card {
+    width: 50vw;
+    /* padding: 20px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.existing-customer-container .stylish-btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.stylish-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.animated-btn {
+    animation: bounceIn 0.8s ease;
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
